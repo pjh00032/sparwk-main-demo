@@ -1,21 +1,9 @@
 import Slider from "react-slick";
-import React, { useEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { faPlayCircle } from "@fortawesome/free-regular-svg-icons";
 import ReactPlayer from 'react-player';
 
 const SliderComponent = (props) =>{
-    const [nowPlaying, setNowPlaying] = useState(true);
-
-    useEffect(() => {
-        setNowPlaying(true);
-      }, []);
-
-    const videoPlayPause = () => {
-
-        setNowPlaying(true);
-    }
 
     return(
         <Slider
@@ -31,7 +19,7 @@ const SliderComponent = (props) =>{
         <div className="slider">
             <ReactPlayer width="100%" 
                          height="100%" 
-                         url="/videos/12716.mp4" 
+                         url="./videos/12716.mp4" 
                          className="slider-video" 
                          loop 
                          controls
@@ -43,7 +31,7 @@ const SliderComponent = (props) =>{
             </button> */}
         </div>
         <div className="slider-img">
-          <img src="/images/sparwk2.PNG"></img>
+          <img src="./images/sparwk2.PNG"></img>
         </div>
 
 
