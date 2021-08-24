@@ -219,10 +219,10 @@ footer{
   margin-top: 25px;
 }
 
-.footer-nav a:link, 
-.footer-nav a:visited,
-.footer-nav a:active,
-.footer-nav a:hover
+a:link, 
+a:visited,
+a:active,
+a:hover
 {
   text-decoration: none;
   color:#000000;

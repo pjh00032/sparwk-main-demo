@@ -45,7 +45,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://pjh00032.github.io/sparwk-main-demo/",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
