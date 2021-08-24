@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sparwk-main-demo/static/css/main.b46a811d.chunk.css",
-    "main.js": "/sparwk-main-demo/static/js/main.ee705cc5.chunk.js",
-    "main.js.map": "/sparwk-main-demo/static/js/main.ee705cc5.chunk.js.map",
+    "main.js": "/sparwk-main-demo/static/js/main.cced2eef.chunk.js",
+    "main.js.map": "/sparwk-main-demo/static/js/main.cced2eef.chunk.js.map",
     "runtime-main.js": "/sparwk-main-demo/static/js/runtime-main.b5d64ea3.js",
     "runtime-main.js.map": "/sparwk-main-demo/static/js/runtime-main.b5d64ea3.js.map",
     "static/css/2.0c8a8e4f.chunk.css": "/sparwk-main-demo/static/css/2.0c8a8e4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.0c8a8e4f.chunk.css",
     "static/js/2.9534dfb7.chunk.js",
     "static/css/main.b46a811d.chunk.css",
-    "static/js/main.ee705cc5.chunk.js"
+    "static/js/main.cced2eef.chunk.js"
   ]
 }
