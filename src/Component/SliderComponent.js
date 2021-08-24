@@ -19,7 +19,7 @@ const SliderComponent = (props) =>{
         <div className="slider">
             <ReactPlayer width="100%" 
                          height="100%" 
-                         url="./videos/12716.mp4" 
+                         url={process.env.PUBLIC_URL+'/videos/12716.mp4'}
                          className="slider-video" 
                          loop 
                          controls
@@ -31,7 +31,7 @@ const SliderComponent = (props) =>{
             </button> */}
         </div>
         <div className="slider-img">
-          <img src="./images/sparwk2.PNG"></img>
+          <img src={process.env.PUBLIC_URL+'/images/sparwk2.PNG'} alt="profile"></img>
         </div>
 
 

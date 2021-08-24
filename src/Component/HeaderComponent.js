@@ -3,7 +3,7 @@ const HeaderComponent = (props) =>{
     return(
         <header>
             <span className="header-logo">
-                <img src="./images/sparwk.PNG"></img>
+                <img src={process.env.PUBLIC_URL+'/images/sparwk.PNG'} alt="profile"></img>
             </span>
             <nav className="header-nav">
                 <ul>
