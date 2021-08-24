@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sparwk-main-demo/static/css/main.00a48a12.chunk.css",
+    "main.js": "/sparwk-main-demo/static/js/main.5c84bf28.chunk.js",
+    "main.js.map": "/sparwk-main-demo/static/js/main.5c84bf28.chunk.js.map",
+    "runtime-main.js": "/sparwk-main-demo/static/js/runtime-main.ce8d9bcf.js",
+    "runtime-main.js.map": "/sparwk-main-demo/static/js/runtime-main.ce8d9bcf.js.map",
+    "static/css/2.0c8a8e4f.chunk.css": "/sparwk-main-demo/static/css/2.0c8a8e4f.chunk.css",
+    "static/js/2.3331d8a5.chunk.js": "/sparwk-main-demo/static/js/2.3331d8a5.chunk.js",
+    "static/js/2.3331d8a5.chunk.js.map": "/sparwk-main-demo/static/js/2.3331d8a5.chunk.js.map",
+    "static/js/3.108fea6f.chunk.js": "/sparwk-main-demo/static/js/3.108fea6f.chunk.js",
+    "static/js/3.108fea6f.chunk.js.map": "/sparwk-main-demo/static/js/3.108fea6f.chunk.js.map",
+    "index.html": "/sparwk-main-demo/index.html",
+    "static/css/2.0c8a8e4f.chunk.css.map": "/sparwk-main-demo/static/css/2.0c8a8e4f.chunk.css.map",
+    "static/css/main.00a48a12.chunk.css.map": "/sparwk-main-demo/static/css/main.00a48a12.chunk.css.map",
+    "static/js/2.3331d8a5.chunk.js.LICENSE.txt": "/sparwk-main-demo/static/js/2.3331d8a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce8d9bcf.js",
+    "static/css/2.0c8a8e4f.chunk.css",
+    "static/js/2.3331d8a5.chunk.js",
+    "static/css/main.00a48a12.chunk.css",
+    "static/js/main.5c84bf28.chunk.js"
+  ]
+}
