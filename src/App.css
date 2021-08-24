@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
-}
+/*header, footer*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
   display: flex;
-  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 2;
 }
 
-.App-link {
-  color: #61dafb;
+.header-logo{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.5rem;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-nav, .footer-nav {
+  margin-left: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-nav{
+  margin-top: 25px;
+}
+
+.header-nav ul, .footer-nav ul {
+  list-style: none;
+  margin: 2px;
+  padding: 0;
+  display: flex;
+  vertical-align: middle;
+}
+
+.header-nav ul li, .footer-nav ul li {
+  display: block;
+  text-align: center;
+  margin: .25rem;
+  padding: .10rem 1rem;
+  text-decoration: none;
+}
+
+
+.header-nav ul li button{
+  background: white;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.header-nav ul li:hover, .header-nav ul li:hover button{
+  font-weight: bold;
+  color: #999;
+}
+
+.switch-button { 
+  position: relative; display: inline-block; width: 55px; height: 30px; 
+} 
+.switch-button input { opacity: 0; width: 0; height: 0; } 
+.onoff-switch { 
+  position: absolute; 
+  cursor: pointer; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  border-radius:20px; 
+  background-color: #ccc; 
+  box-shadow: inset 1px 5px 1px #999; 
+  -webkit-transition: .4s; 
+  transition: .4s; 
+} 
+.onoff-switch:before { 
+  position: absolute; 
+  content: ""; 
+  height: 22px; 
+  width: 22px; 
+  left: 4px; 
+  bottom: 4px; 
+  background-color: #fff; 
+  -webkit-transition: .5s; 
+  transition: .4s; 
+  border-radius:20px; 
+} 
+.switch-button input:checked + .onoff-switch {
+  background-color: #F2D522; 
+  box-shadow: inset 1px 5px 1px #E3AE56; } 
+.switch-button input:checked + .onoff-switch:before { 
+  -webkit-transform: translateX(26px); 
+  -ms-transform: translateX(26px); 
+  transform: translateX(26px); 
+}
+
+/*main*/
+
+main {
+  margin-top: 3rem;
+  height: auto;  
+}
+
+/*slider*/
+
+.slick-slide{
+   height: 10vw;
+}
+
+.slider-img img{
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-video{
+  width: 100%;
+  height: 100%;
+}
+
+.slider-btn {
+  background: transparent;
+  position: relative;
+  left: 46.5%;
+  border-width: 0px;
+  color:transparent;
+  bottom: 450px;
+}
+
+.slider-btn:hover{
+  color:whitesmoke;
+}
+
+.slick-prev, .slick-next{
+  z-index: 1;
+  bottom: 50%;
+  position: absolute;
+  color: whitesmoke;
+}
+
+.slick-next{
+  right: 1px;
+}
+
+.slick-list{
+  height: 45vw;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: 25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+    z-index: 1;
+    
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 100px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 70px;
+    height: 8px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: rgb(172, 172, 172);
+
+}
+.slick-dots li button:before{
+  background: rgb(51, 50, 50);
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+    background: yellow
+}
+.slick-dots li.slick-active button
+{
+    background: yellow;
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+  min-height: 200px;
+  margin-top: 25px;
+}
+
+.footer-nav a:link, 
+.footer-nav a:visited,
+.footer-nav a:active,
+.footer-nav a:hover
+{
+  text-decoration: none;
+  color:#000000;
 }
